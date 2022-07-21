@@ -5,7 +5,7 @@ This was mainly just to see if I could do it on my own.
 
 Had to learn promises, seems javascript might not be the best language for this task. 
 
-Timing all the animations and dialgoue was definitley the biggest task.
+Timing all the animations and dialogue was definitley the biggest task.
 
 Still an alpha version so not every feature is here. 
 

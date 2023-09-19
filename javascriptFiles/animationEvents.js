@@ -70,7 +70,7 @@ async function loadEvents() {
 
 //display pokeball
 function pokeball() {
-    document.getElementById('ambipom').src = "miscImages/pokeball.PNG";
+    document.getElementById('ambipom').src = "miscImages/pokeball.png";
 }
 
 //pokeball opening animations
@@ -96,11 +96,11 @@ async function pokemonAppearance() {
 
 //display pokemon animation and choice dialogue
 async function pokemonChange() {
-    document.getElementById('ambipom').src = "imagesPokemon/AmbipomDiff.png";
+    document.getElementById('ambipom').src = "imagesPokemon/ambipomDiff.png";
     await sleep(150)
     document.getElementById('ambipom').src = "imagesPokemon/Ambipom.png";
     await sleep(150)
-    document.getElementById('ambipom').src = "imagesPokemon/AmbipomDiff.png";
+    document.getElementById('ambipom').src = "imagesPokemon/ambipomDiff.png";
     await sleep(150)
     document.getElementById('ambipom').src = "imagesPokemon/Ambipom.png";
     document.getElementById("InfoDivEnemy").style.display = "flex";
